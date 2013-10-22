@@ -1,0 +1,6 @@
+D:\Skydrive\Blog\Proyectos\MongoREST\WebClient\bin\WebClient.dll.config
+D:\Skydrive\Blog\Proyectos\MongoREST\WebClient\bin\WebClient.dll
+D:\Skydrive\Blog\Proyectos\MongoREST\WebClient\bin\WebClient.pdb
+D:\Skydrive\Blog\Proyectos\MongoREST\WebClient\obj\Debug\WebClient.csprojResolveAssemblyReference.cache
+D:\Skydrive\Blog\Proyectos\MongoREST\WebClient\obj\Debug\WebClient.dll
+D:\Skydrive\Blog\Proyectos\MongoREST\WebClient\obj\Debug\WebClient.pdb
