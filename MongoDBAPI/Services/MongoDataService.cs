@@ -14,22 +14,14 @@ namespace MongoDBAPI.Services
     public class MongoDataService
     {
         private MongoServer server;
-        public string database { get; set; }
+        private string database { get; set; }
 
         public MongoDataService(string connectionString)
         {
             MongoClient client = new MongoClient(connectionString);
             server = client.GetServer();        
         }
-
-        public string findOne(string databaseName, string collectionName)
-        {
-            var db = server.GetDatabase(databaseName);
-            var collection = db.GetCollection(collectionName);
-            
-            return  collection.FindOne().ToJson();
-        }
-
+        
         public string findOne(string databaseName, string collectionName, string query)
         {
             var db = server.GetDatabase(databaseName);
@@ -44,12 +36,11 @@ namespace MongoDBAPI.Services
                 return result.ToJson();
             } else { 
                 return "{{}}"; 
-            }
-
-
-            
+            }            
         }
 
 
     }
 }
+
+
